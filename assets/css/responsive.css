@@ -1,0 +1,236 @@
+/*------------*/
+/*-- 1500px --*/
+/*------------*/
+
+@media screen and (max-width: 1500px) {
+  .container {
+    width: 1200px;
+  }
+
+  .grid-2-1fr {
+    column-gap: 3rem;
+    margin-bottom: 0;
+  }
+}
+
+/*------------*/
+/*-- 1300px --*/
+/*------------*/
+
+@media screen and (max-width: 1300px) {
+  section {
+    padding-block: 5rem;
+  }
+  .container {
+    width: 800px;
+  }
+  .description {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  h1 {
+    font-size: 8rem;
+    line-height: 1.2;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 4rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  #hero p {
+    font-size: 1.5rem;
+  }
+
+  .grid-3-1fr {
+    grid-template-columns: 100%;
+    gap: 2rem;
+  }
+
+  #story {
+    padding-bottom: 10rem;
+  }
+
+  #token h4 {
+    font-size: 3rem;
+  }
+  #tokenomics {
+    padding-top: 15rem;
+  }
+
+  #buy .container > p {
+    margin-bottom: 3rem;
+  }
+  #buy .grid-3-1fr {
+    gap: 2rem;
+  }
+
+  .grid-footer {
+    grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
+    gap: 2rem;
+  }
+  .grid-footer > div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .grid-footer > div:nth-child(2) {
+    text-align: left;
+  }
+}
+
+/*------------*/
+/*-- 900px --*/
+/*------------*/
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 100%;
+  }
+
+  section {
+    padding: 1rem;
+    padding-block: 2rem;
+  }
+
+  .description {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  button,
+  .btn {
+    width: 100%;
+  }
+  .bg-box {
+    padding: 2rem;
+  }
+  .bg-nft {
+    width: 100%;
+    border: solid 0.2rem #fff;
+  }
+
+  h1 {
+    font-size: 20vw;
+  }
+  h2 {
+    font-size: 10vw;
+  }
+  h3 {
+    font-size: 10vw;
+  }
+  h4 {
+    font-size: 9vw;
+    margin-bottom: 0rem;
+  }
+  p,
+  li,
+  a {
+    font-size: 1rem;
+  }
+
+  .memes {
+    width: 80%;
+  }
+  .memes > img:nth-child(2) {
+    position: relative;
+    z-index: 1;
+    top: unset;
+    left: unset;
+    width: 80%;
+    margin-top: -5rem;
+    margin-left: 2rem;
+  }
+
+  #header > nav ul {
+    display: none;
+  }
+  #mobile-icon {
+    display: block;
+  }
+
+  #hero {
+    padding-block: 7rem;
+  }
+  #hero p {
+    font-size: 1.2rem;
+  }
+  #hero img {
+    bottom: -10rem;
+    width: 200px;
+  }
+
+  .grid-2-1fr {
+    grid-template-columns: 100%;
+
+    text-align: center;
+  }
+
+  #nft .grid-2-1fr > div:nth-child(1) {
+    grid-row-start: 2;
+  }
+  #story .grid-2-1fr img {
+    margin-top: -4rem;
+  }
+
+  #token .container {
+    flex-direction: column;
+  }
+  #token h4 {
+    font-size: 18vw;
+  }
+
+  #tokenomics {
+    padding-top: 180vw;
+  }
+  #tokenomics .grid-2-1fr > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #tokenomics .grid-2-1fr > div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 0rem;
+  }
+  #tokenomics .grid-2-1fr > div:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-block: 0rem;
+  }
+  #tokenomics .grid-2-1fr > div img {
+    width: 90%;
+
+    margin-top: -5rem;
+  }
+
+  .ca {
+    font-size: 9vw;
+  }
+  #tokenomics .bg-box ul {
+    margin-bottom: 2rem;
+  }
+
+  .grid-footer {
+    grid-template-columns: 100%;
+  }
+  .grid-footer > div {
+    padding-top: 1rem;
+
+    border-top: solid 1px var(--clr-2);
+  }
+  .grid-footer > div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    border: none;
+  }
+  .grid-footer > div:nth-child(3) {
+    text-align: left;
+  }
+}
